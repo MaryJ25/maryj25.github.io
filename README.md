@@ -1,3 +1,3 @@
-#Resume
+# Resume
 
-###This repo is for my resume website.
+### This repo is for my resume website.
