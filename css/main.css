@@ -1012,6 +1012,39 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
+.skill-text {
+	list-style: none;
+	margin: 6rem 0 3rem;
+}
+
+.skill-text li {
+	height: .6rem;
+	width: 100%;
+	margin-bottom: 6rem;
+	padding: 0;
+	position: relative;
+}
+
+.skill-text li strong {
+	position: absolute;
+	left: 0;
+	top: -3rem;
+	font-family: "poppins-bold", sans-serif;
+	color: #313131;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+.skill-text li span {
+	position: absolute;
+	right: 0;
+	display: block;
+	font-family: "lora-regular", sans-serif;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
 
 /** 
  * ===================================================================
@@ -1550,7 +1583,7 @@ header .logo a {
 	font-size: 1.5rem;
 	line-height: 1;
 }
-.about-content .skill-bars {
+.about-content .skill-bars .skill-text {
 	margin-top: 6rem;
 }
 
