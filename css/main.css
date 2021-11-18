@@ -1012,6 +1012,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
+/* Custom made for skill section but no bars */
 .skill-text {
 	list-style: none;
 	margin: 6rem 0 3rem;
@@ -1037,7 +1038,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 2.4rem;
 }
 
-.skill-text li span {
+.skill-text li p {
 	position: absolute;
 	right: 0;
 	display: block;
